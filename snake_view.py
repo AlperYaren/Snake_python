@@ -10,7 +10,7 @@ def draw_board(canvas, x1, y1, x2, y2, board, debug_mode):
     cell_width = (x2 - x1) / cols
     cell_height = (y2 - y1) / rows
 
-    image = load_image('apple.png')
+    image = load_image('pictures/apple.png')
 
     for row in range(rows):
         for col in range(cols):
@@ -42,7 +42,7 @@ def draw_board(canvas, x1, y1, x2, y2, board, debug_mode):
 
 
 def show_start_screen(canvas, width, height, text_size):            # Vis startskjermen
-    start_screen_image = load_image('start_screen.png')  # Last inn startskjermens bilde
+    start_screen_image = load_image('pictures/start_screen.png')  # Last inn startskjermens bilde
     image_in_box(canvas, 0, 0, width, height, start_screen_image)
     canvas.create_text(width / 2, (height-100), text=f'Press any key to start', font=f'Arial {text_size}',fill='white')
 
