@@ -12,13 +12,13 @@ Welcome to the Python Snake Game! This is a graphical version of the classic Sna
 ## Screenshots
 
 ### Start Screen
-![Start Screen](startSkjerm.png)
+![Start Screen](pictures/startSkjerm.png)
 
 ### In-Game Screenshot
-![In-Game](inGame.png)
+![In-Game](pictures/inGame.png)
 
 ### Debug Mode
-![Debug Mode](dmode.png)
+![Debug Mode](pictures/dmode.png)
 
 ## Controls
 
